@@ -1,0 +1,55 @@
+/* Tema Claro */
+body.light-mode {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+main.light-mode {
+    background-color: #ffffff;
+}
+
+.history.light-mode {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.result.light-mode {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.numbers li.light-mode,
+.simbol li.light-mode,
+.numbSimbol li.light-mode {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.numbers li.light-mode:hover,
+.simbol li.light-mode:hover,
+.numbSimbol li.light-mode:hover {
+    background-color: #cccccc;
+}
+
+.history li.light-mode {
+    border-bottom: 1px solid #b0b0b0;
+}
+
+#equal.light-mode {
+    background-color: #4caf50;
+}
+
+#equal.light-mode:hover {
+    background-color: #66bb6a;
+}
+
+body.light-mode img[alt="back"],
+body.light-mode img[alt="backspace"] {
+    filter: invert(1);
+}
+#theme-toggle.light-mode{
+    background-color: #f0f0f0;
+}
+#theme-toggle i.light-mode {
+    color: black;
+}

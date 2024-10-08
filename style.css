@@ -1,0 +1,186 @@
+/* Tema Escuro (Padrão) */
+body {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 95vh;
+
+    background-color: #161616;
+    color: white;
+}
+
+main {
+    width: 500px;
+    margin: 20px;
+    background-color: #3e3e3e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 25px;
+}
+
+img[alt="back"],
+img[alt="backspace"] {
+    filter: invert(0);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calcBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.history {
+    height: 100px;
+    background-color: #242424;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.history ul {
+    padding: 0;
+    margin: 0;
+}
+
+.history li {
+    border-bottom: 1px solid white;
+}
+
+.history li p {
+    padding: 0 0 0 20px;
+    font-size: 18px;
+    margin: 5px 0 5px;
+}
+
+.result {
+    height: 100px;
+    background-color: #242424;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.result p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.number {
+    display: flex;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 56%;
+    font-size: 20px;
+    padding: 0;
+    margin: 10px 5px 10px 0;
+    gap: 10px;
+}
+
+.numbers li {
+    width: 75px;
+    height: 50px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.numbers li:hover {
+    cursor: pointer;
+    background-color: #2c2c2c;
+}
+
+.simbol {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    font-size: 20px;
+    padding: 0;
+    margin: 10px 0 10px 0;
+    gap: 10px;
+}
+
+.simbol li {
+    width: 75px;
+    height: 50px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.simbol li:hover {
+    cursor: pointer;
+    background-color: #2c2c2c;
+}
+
+.numbSimbol {
+    font-size: 20px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.numbSimbol li {
+    width: 75px;
+    height: 50px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.numbSimbol li:hover {
+    cursor: pointer;
+    background-color: #2c2c2c;
+}
+
+#equal {
+    width: 160px;
+    background-color: green;
+}
+
+#equal:hover {
+    cursor: pointer;
+    background-color: rgb(3, 175, 3);
+}
+
+#theme-toggle {
+    width: 40px;
+    height: 40px;
+    background-color: #242424;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+#theme-toggle i {
+    font-size: 20px;
+    color: white;
+}

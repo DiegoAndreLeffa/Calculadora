@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="light-mode.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1>Calculadora</h1>
+        <button id="theme-toggle">
+          <i class="fas fa-sun" id="theme-icon"></i>
+        </button>
+      </div>
+      <div class="calcBody">
+        <div class="history"><ul></ul></div>
+        <div class="result"><p></p></div>
+        <div class="number">
+          <ul class="numbers">
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+          <ul class="simbol">
+            <li>/</li>
+            <li><img src="./assets/backWhite.svg" alt="back" /></li>
+            <li><img src="./assets/backspaceWhite.svg" alt="backspace" /></li>
+            <li>X</li>
+            <li>(</li>
+            <li>)</li>
+            <li>-</li>
+            <li>X²</li>
+            <li>√</li>
+          </ul>
+        </div>
+        <ul class="numbSimbol">
+          <li>0</li>
+          <li>,</li>
+          <li>%</li>
+          <li>+</li>
+          <li id="equal">=</li>
+        </ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
